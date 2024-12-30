@@ -1,0 +1,12 @@
+# Local Terraform files
+*.tfstate
+*.tfstate.*
+
+# Ignore .terraform directory
+.terraform/
+
+# Sensitive files
+*.auto.tfvars
+
+# Lock file
+.terraform.lock.hcl
